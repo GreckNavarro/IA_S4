@@ -58,16 +58,10 @@ public class DataViewBase
             return this.InSight;
         }
 
-
-
         if (Physics.Linecast(origin, dest, this.Occlusionlayers) && this.InsideObject)
         {
             return this.InSight;
         }
-
-
-
-
 
 
         this.InSight = true;
